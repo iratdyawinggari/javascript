@@ -12,7 +12,7 @@
         }
     };
 
-    spiralMaze = function (n) {
+    arrMaze = function (n) {
         var arr = new Array(n);
         for (var k = 0; k < arr.length; k++) { 
             arr[k] = []; 
@@ -49,4 +49,5 @@
         return arr;
     };
 
-    printMaze(spiralMaze(15));
+    printMaze(arrMaze(15));
+
